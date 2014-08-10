@@ -13,7 +13,7 @@
           <% link_to "http://www.rockhousebahamas.com", target: "_blank" do %>
             <h4>Rockhouse Restaurant</h4>
           <% end %>
-          <% link_to "https://www.google.com/maps/place/Rock+House+Restaurant/@25.49913,-76.63672,17z/data=!3m1!4b1!4m2!3m1!1s0x8925375e8b79d817:0xff248a8dbdb53bf9", target: "_blank" do %>
+          <% link_to "https://www.google.com/maps/place/Rock+House+Restaurant/@25.49913,-76.63672,17z/", target: "_blank" do %>
             <h6>Dunmore Town, Harbour Island, Bahamas</h6>
           <% end %>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p>
@@ -24,8 +24,12 @@
       <div class="thumbnail">
         <%= image_tag("images/gallery/double-date.jpg", alt: "Double Date Night") %>
         <div class="caption">
-          <h4>(Double) Date Night</h4>
-          <h6>Smyrna Food Truck Tuesdays</h6>
+          <% link_to "https://www.google.com/maps/place/3180+Atlanta+Rd,+Smyrna,+GA+30080/@33.8753259,-84.5075277,17z/", target: "_blank" do %>
+            <h4>(Double) Date Night</h4>
+          <% end %>
+          <% link_to "http://foodtrucksin.com/events/smyrna-food-truck-tuesdays", target: "_blank" do %>
+            <h6>Smyrna Food Truck Tuesdays</h6>
+          <% end %>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p>
         </div>
       </div>
@@ -36,8 +40,12 @@
       <div class="thumbnail">
         <%= image_tag("images/gallery/docks.jpg", alt: "Paradise Island docks") %>
         <div class="caption">
-          <h4>Paradise Island Ferry Terminal</h4>
-          <h6>Paradise Island, New Providence, The Bahamas</h6>
+          <% link_to "http://bahamastourcenter.com/paradise-island-ferry-terminal/", target: "_blank" do %>
+            <h4>Paradise Island Ferry Terminal</h4>
+          <% end %>
+          <% link_to "https://www.google.com/maps/place/Paradise+Island+Ferry+Terminal,+Paradise+Beach+Dr,+The+Bahamas/@25.0795816,-77.3214689,17z/", target: "_blank" do %>
+            <h6>Paradise Island, New Providence, The Bahamas</h6>
+          <% end %>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p>
         </div>
       </div>
@@ -46,8 +54,12 @@
       <div class="thumbnail">
         <%= image_tag("images/gallery/hawks.jpg", alt: "Hawks/Pacers playoff game") %>
         <div class="caption">
-          <h4>Hawks/Pacers Playoff Game</h4>
-          <h6>Phillips Arena, Atlanta, GA</h6>
+          <% link_to "http://www.nba.com/hawks/", target: "_blank" do %>
+            <h4>Hawks/Pacers Playoff Game</h4>
+          <% end %>
+          <% link_to "https://www.google.com/maps/place/Philips+Arena/@33.757289,-84.396324,17z/", target: "_blank" do %>
+            <h6>Phillips Arena, Atlanta, GA</h6>
+          <% end %>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p>
         </div>
       </div>
@@ -58,8 +70,12 @@
       <div class="thumbnail">
         <%= image_tag("images/gallery/niagra.jpg", alt: "Niagra Falls") %>
         <div class="caption">
-          <h4>Queen Victoria Park</h4>
-          <h6>Niagra Falls, Ontario, Canada</h6>
+          <% link_to "http://www.niagaraparks.com/niagara-falls-attractions/queen-victoria-park.html", target: "_blank" do %>
+            <h4>Queen Victoria Park</h4>
+          <% end %>
+          <% link_to "https://www.google.com/maps/place/Queen+Victoria+Park/@43.086141,-79.077481,17z/", target: "_blank" do %>
+            <h6>Niagra Falls, Ontario, Canada</h6>
+          <% end %>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p>
         </div>
       </div>
@@ -68,8 +84,12 @@
       <div class="thumbnail">
         <%= image_tag("images/gallery/pink-sand.jpg", alt: "Pink Sand Beaches, Harbor Island") %>
         <div class="caption">
-          <h4>Pink Sands Beach</h4>
-          <h6>Harbour Island, Bahamas</h6>
+          <% link_to "http://www.harbourislandguide.com/pink-sands.htm", target: "_blank" do %>
+            <h4>Pink Sands Beach</h4>
+          <% end %>
+          <% link_to "https://www.google.com/maps/place/Harbor+Island,+The+Bahamas/@25.4995296,-76.6343201,14z/", target: "_blank" do %>
+            <h6>Harbour Island, Bahamas</h6>
+          <% end %>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p>
         </div>
       </div>
@@ -81,8 +101,12 @@
       <div class="thumbnail">
         <%= image_tag("images/gallery/toronto.jpg", alt: "Toronto Wedding") %>
         <div class="caption">
-          <h4>Cousin's Wedding</h4>
-          <h6>Toronto, Ontario, Canada</h6>
+          <% link_to "https://www.youtube.com/watch?v=ZrDvj9kpb28", target: "_blank" do %>
+            <h4>Cousin's Wedding</h4>
+          <% end %>
+          <% link_to "https://www.google.com/maps/place/Toronto,+ON,+Canada/@43.7182713,-79.3777061,11z/", target: "_blank" do %>
+            <h6>Toronto, Ontario, Canada</h6>
+          <% end %>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p>
         </div>
       </div>
@@ -91,8 +115,12 @@
       <div class="thumbnail">
         <%= image_tag("images/gallery/zoo-atlanta.jpg", alt: "Zoo Atlanta") %>
         <div class="caption">
-          <h4>Zoo Atlanta</h4>
-          <h6>Atlanta, GA</h6>
+          <% link_to "http://www.zooatlanta.org/", target: "_blank" do %>
+            <h4>Zoo Atlanta</h4>
+          <% end %>
+          <% link_to "https://www.google.com/maps/place/Zoo+Atlanta/@33.732449,-84.37087,17z/", target: "_blank" do %>
+            <h6>Atlanta, GA</h6>
+          <% end %>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p>
         </div>
       </div>
